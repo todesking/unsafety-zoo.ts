@@ -1,0 +1,16 @@
+{
+  "name": "unsafe-ts",
+  "version": "0.0.1",
+  "description": "Many ways to bring unsoundness in TS",
+  "main": "index.js",
+  "author": "todesking",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
