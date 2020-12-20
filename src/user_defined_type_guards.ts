@@ -3,10 +3,10 @@ function lie<T>(x: unknown): x is T {
 }
 
 export function unsafe_cast<U>(x: unknown): U {
-  if(lie<U>(x)) {
+  if (lie<U>(x)) {
     return x;
   }
-  throw "not_reach_here"
+  throw "not_reach_here";
 }
 
-const x: number = unsafe_cast("string")
+const x: number = unsafe_cast("string");
